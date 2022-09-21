@@ -6,9 +6,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
+
 header{
     background-color: #ff6900;
     height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 nav{
@@ -23,7 +29,7 @@ nav{
 a{
     text-decoration: none;
     color: white;
-    padding-right: 4px;
+    margin-right: 4px;
 }
 
 a:hover{
@@ -42,4 +48,29 @@ a:hover{
 
 span .fa-regular{
     padding-right: 4px;
+}
+
+/* MAIN CARDS */
+
+main{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.row-flex{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.cards img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.cards{
+    width: calc(100% / 3);
+    position: relative;
+    padding: 1%;
 }
