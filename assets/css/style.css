@@ -88,6 +88,54 @@ main{
     text-decoration: line-through;
 }
 
+.img-card{
+    position: relative;
+}
+
+.bottoni{
+    position: absolute;
+    bottom: 40px;
+}
+
+.sconto{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    
+}
+
+.sost{
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+}
+
+.img-2{
+    display: none;
+}
+
+.img-card:hover .img-1{
+    display: none;
+}
+
+.img-card:hover .img-2{
+    display: block;
+}
+
+.fa-heart{
+    font-size: 20px;
+    padding: 8px 8px;
+}
+
+.heart{
+    position: absolute;
+    bottom: 400px;
+    left: 298px;
+    border: 1px solid #eaeae8;
+}
+
+
+
 /*FOOTER*/
 
 footer{
